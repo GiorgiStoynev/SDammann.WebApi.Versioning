@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SDammann.WebApi.Versioning</id>
-	<title>ASP.NET Web API versioning support</title>
-    <version>2.6.0.0</version>
-    <authors>Sebastiaan Dammann</authors>
+	  <title>ASP.NET Web API versioning support</title>
+    <version>3.0.0.0-beta3</version>
+    <authors>Sebastiaan Dammann and contributors</authors>
     <owners>Sebastiaan Dammann</owners>
     <licenseUrl>https://github.com/Sebazzz/SDammann.WebApi.Versioning/raw/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Sebazzz/SDammann.WebApi.Versioning</projectUrl>
@@ -13,6 +13,13 @@
     <tags>aspnet webapi versioning</tags>
 	
 	<releaseNotes xml:space="preserve">
+   Version 3.0.0.0:
+   - Major release featuring breaking changes and new set-up
+   - View the Readme on Github for all the details: https://github.com/Sebazzz/SDammann.WebApi.Versioning/blob/master/README.md
+    
+   Version 2.7.0.0:
+  - Fix for nullable types in VersionedApiExplorer
+    
    Version 2.5.0.0:
   - Updated references
   - Support for attributed routing
@@ -53,7 +60,7 @@
   </releaseNotes>
 
     <dependencies>
-      <dependency id="Microsoft.AspNet.WebApi.Core" version="[5.0,)" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="[5.2,)" />
     </dependencies>
 
 	
